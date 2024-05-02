@@ -1,0 +1,19 @@
+namespace Lab0112_2
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.SizeGripStyle = SizeGripStyle.Hide;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Text = "Приклад тексту після натискання на кнопку";
+        }
+    }
+}
